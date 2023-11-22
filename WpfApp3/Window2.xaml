@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfApp3.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid Background="Black">
+        <Label Content="4. Что является &#xD;&#xA;царством&#xD;&#xA;собачьих?" HorizontalAlignment="Left" Margin="45,33,0,0" VerticalAlignment="Top" Height="84" Width="221" Background="Black" Foreground="#FFF76A6A" FontSize="16" FontFamily="Segoe Script"/>
+        <CheckBox Content="Волк" HorizontalAlignment="Left" Margin="45,151,0,0" VerticalAlignment="Top" Background="#FFFBEEEE" Foreground="#FFF56767" Checked="CheckBox_Checked_2"/>
+        <CheckBox Content="Шакал" HorizontalAlignment="Left" Margin="45,171,0,0" VerticalAlignment="Top" Foreground="#FFE66161" Checked="CheckBox_Checked_2"/>
+        <CheckBox Content="Тигр" HorizontalAlignment="Left" Margin="45,131,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.501,0.635" Foreground="#FFEF5555"/>
+        <CheckBox Content="Лев" HorizontalAlignment="Left" Margin="45,191,0,0" VerticalAlignment="Top" Foreground="#FFF76060"/>
+        <Label Content="5. Программирование&#xD;&#xA;нужно для:" HorizontalAlignment="Left" Margin="502,33,0,0" VerticalAlignment="Top" Height="68" Width="239" Foreground="#FFF37777" FontSize="18" FontFamily="Segoe Script"/>
+        <CheckBox Content="Развития" HorizontalAlignment="Left" Margin="502,117,0,0" VerticalAlignment="Top" Foreground="#FFF56B6B" Checked="CheckBox_Checked_1"/>
+        <CheckBox Content="Будущего" HorizontalAlignment="Left" Margin="502,137,0,0" VerticalAlignment="Top" Foreground="#FFF16565" Checked="CheckBox_Checked_1"/>
+        <CheckBox Content="мошенничества" HorizontalAlignment="Left" Margin="502,159,0,0" VerticalAlignment="Top" Background="WhiteSmoke" Foreground="#FFEF7F7F"/>
+        <Label Content="6. Какие операционные&#xD;&#xA; системы&#xD;&#xA; являются&#xD;&#xA; мобильными?" HorizontalAlignment="Left" Margin="321,0,0,0" VerticalAlignment="Center" Height="102" Width="173" Foreground="#FFF97979" FontFamily="Segoe Script"/>
+        <CheckBox Content="Linux" HorizontalAlignment="Left" Margin="309,288,0,0" VerticalAlignment="Top" Foreground="#FFF16E6E"/>
+        <CheckBox Content="Windows" HorizontalAlignment="Left" Margin="400,288,0,0" VerticalAlignment="Top" Foreground="#FFED7272"/>
+        <CheckBox Content="IOS" HorizontalAlignment="Left" Margin="311,308,0,0" VerticalAlignment="Top" Background="#FFFBE6E6" Foreground="#FFF36C6C" Click="CheckBox_Checked"/>
+        <CheckBox Content="Android" HorizontalAlignment="Left" Margin="400,308,0,0" VerticalAlignment="Top" Foreground="#FFE67272" Click="CheckBox_Checked"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="691,338,0,0" VerticalAlignment="Top" Height="70" Width="85" Click="Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFF74949" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFE85B5B" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFE8C448" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+        </Button>
+
+    </Grid>
+</Window>

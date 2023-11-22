@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApp3.Finish"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Finish" Height="450" Width="800">
+    <Grid Background="Black">
+        <Label x:Name="lbl" Content="" HorizontalAlignment="Left" Margin="325,105,0,0" VerticalAlignment="Top" Width="113" OpacityMask="#FFF56363" Height="59" FontSize="16" FontFamily="Segoe Script">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Background>
+            <Label.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFEC7A7A" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.BorderBrush>
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFED6060" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Label Content="Количество правильных ответов:" HorizontalAlignment="Left" Margin="202,217,0,0" VerticalAlignment="Top" Height="71" Width="256" FontFamily="Segoe Script">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFE6C2C2" Offset="1"/>
+                    <GradientStop Color="#FEE24949" Offset="0.053"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFB77676" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+        <Label x:Name="lbl2" Content="Label" HorizontalAlignment="Left" Margin="526,217,0,0" VerticalAlignment="Top" Background="#FFF13535" Height="87" Width="89" FontSize="20" FontFamily="Segoe Script"/>
+    </Grid>
+</Window>
